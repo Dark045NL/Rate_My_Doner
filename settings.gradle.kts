@@ -15,3 +15,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "Rate_My_Doner"
 include(":app")
+include(":maps")
