@@ -13,6 +13,10 @@
         android:theme="@style/Theme.Rate_My_Doner"
         tools:targetApi="31">
         <activity
+            android:name=".SmaakProfielActivity"
+            android:exported="false"
+            android:label="@string/title_activity_smaak_profiel" />
+        <activity
             android:name=".MainActivity"
             android:exported="true"
             android:label="@string/app_name"
