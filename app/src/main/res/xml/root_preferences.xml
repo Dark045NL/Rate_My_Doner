@@ -1,121 +1,116 @@
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
-    <PreferenceCategory app:title="Vlees">
+    <PreferenceCategory app:title="Vlees" android:key="VleesCategoryKey">
 
         <CheckBoxPreference
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:defaultValue="false"
-            android:title="Doner" />
+            android:title="Doner"
+            android:key="doner" />
         <CheckBoxPreference
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:defaultValue="false"
-            android:title="Kip" />
+            android:title="Kip"
+            android:key="kip" />
         <CheckBoxPreference
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:defaultValue="false"
-            android:title="Shoarma" />
+            android:title="Shoarma"
+            android:key="shoarma" />
         <CheckBoxPreference
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:defaultValue="false"
-            android:title="Taco" />
-        <CheckBoxPreference
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:defaultValue="false"
-            android:title="Gyros" />
+            android:title="Gyros"
+            android:key="gyros" />
 
     </PreferenceCategory>
 
-    <PreferenceCategory app:title="Saus">
+    <PreferenceCategory app:title="Saus" android:key="SausCategoryKey">
         <CheckBoxPreference
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:defaultValue="false"
-            android:title="Knoflook" />
+            android:title="Knoflook"
+            android:key="knoflook"/>
         <CheckBoxPreference
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:defaultValue="false"
-            android:title="Sambal " />
+            android:title="Sambal "
+            android:key="sambal"/>
         <CheckBoxPreference
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:defaultValue="false"
-            android:title="Chilisaus " />
+            android:title="Chilisaus "
+            android:key="chilisaus"/>
         <CheckBoxPreference
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:defaultValue="false"
-            android:title="Cocktailsaus " />
+            android:title="Cocktailsaus "
+            android:key="cocktailsaus"/>
         <CheckBoxPreference
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:defaultValue="false"
-            android:title="Samurai saus" />
+            android:title="Samurai saus"
+            android:key="samurai_saus"/>
         <CheckBoxPreference
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:defaultValue="false"
-            android:title="Ketchup" />
+            android:title="Ketchup"
+            android:key="ketchup"/>
     </PreferenceCategory>
-    <PreferenceCategory app:title="Groente">
+    <PreferenceCategory app:title="Groente" android:key="GroenteCategoryKey">
         <CheckBoxPreference
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:defaultValue="false"
-            android:title="Sla" />
+            android:title="Sla"
+            android:key="sla" />
         <CheckBoxPreference
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:defaultValue="false"
-            android:title="Tomaat" />
+            android:title="Tomaat"
+            android:key="tomaat" />
         <CheckBoxPreference
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:defaultValue="false"
-            android:title="Komkommer" />
+            android:title="Komkommer"
+            android:key="komkommer" />
         <CheckBoxPreference
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:defaultValue="false"
-            android:title="Kool" />
+            android:title="Kool"
+            android:key="kool" />
         <CheckBoxPreference
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:defaultValue="false"
-            android:title="Ui" />
+            android:title="Ui"
+            android:key="ui" />
         <CheckBoxPreference
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:defaultValue="false"
-            android:title="Alle groenten" />
+            android:title="Alle groenten"
+            android:key="alle_groenten" />
         <CheckBoxPreference
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:defaultValue="false"
-            android:title="Geen Groenten" />
+            android:title="Geen Groenten"
+            android:key="geen_groenten" />
     </PreferenceCategory>
-    <PreferenceCategory app:title="Kaas">
+    <PreferenceCategory app:title="Kaas" android:key="KaasCategoryKey">
         <CheckBoxPreference
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:defaultValue="false"
-            android:title="Kaas" />
+            android:title="Kaas"
+            android:key="kaas" />
         <CheckBoxPreference
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:defaultValue="false"
-            android:title="Feta" />
+            android:title="Feta"
+            android:key="feta" />
         <CheckBoxPreference
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:defaultValue="false"
-            android:title="Geen kaas" />
+            android:title="Geen kaas"
+            android:key="geen_kaas" />
     </PreferenceCategory>
 
 </PreferenceScreen>
