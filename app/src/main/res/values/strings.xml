@@ -12,4 +12,5 @@
     <string name="menu_Profile">My Profile</string>
     <string name="menu_Ratings">My Ratings</string>
     <string name="google_map_api_key">AIzaSyBX42ENWF78ljrNcQOq49tpESCw03LydpU</string>
+    <string name="title_activity_map">MapActivity</string>
 </resources>
